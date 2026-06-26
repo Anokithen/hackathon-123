@@ -1,7 +1,7 @@
 from flask import Blueprint
 from app.middleware import roles_required
 
-from app.controllers import student_controller as ctrl
+from app.controllers import student_controllers as ctrl
 
 student_bp = Blueprint("students", __name__, url_prefix="/api/students")
 
