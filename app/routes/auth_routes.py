@@ -12,4 +12,4 @@ def register():
 
 @auth_bp.route("/login", methods=["POST"])
 def login():
-    return ctrl.login()
+    return ctrl.login() 
